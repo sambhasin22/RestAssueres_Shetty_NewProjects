@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3608" started-at="2020-03-28T06:11:39Z" finished-at="2020-03-28T06:11:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3608" started-at="2020-03-28T06:11:39Z" finished-at="2020-03-28T06:11:43Z">
+      <class name="JIRA_RestAssured_Requests.GetIssue">
+        <test-method status="PASS" signature="init()[pri:0, instance:JIRA_RestAssured_Requests.GetIssue@5cb9f472]" name="init" is-config="true" duration-ms="3250" started-at="2020-03-28T11:41:39Z" finished-at="2020-03-28T11:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getIssueTest()[pri:0, instance:JIRA_RestAssured_Requests.GetIssue@5cb9f472]" name="getIssueTest" duration-ms="336" started-at="2020-03-28T11:41:42Z" finished-at="2020-03-28T11:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssueTest -->
+      </class> <!-- JIRA_RestAssured_Requests.GetIssue -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssured]">
+  <test name="UpdateComments(failed)" preserve-order="true">
+    <classes>
+      <class name="RestAssured_Requests.Update_Comment">
+        <methods>
+          <include name="update_commentTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- RestAssured_Requests.Update_Comment -->
+      <class name="RestAssured_Requests.CreateIssueWithCommentsJira">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- RestAssured_Requests.CreateIssueWithCommentsJira -->
+    </classes>
+  </test> <!-- UpdateComments(failed) -->
+</suite> <!-- Failed suite [RestAssured] -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssured">
+
+	<test thread-count="5" name="Create Issue">
+		<classes>
+			<class name="RestAssured_Requests.CreateIssueWithCommentsJira" />
+
+		</classes>
+	</test>
+
+	 <test name="Assign Issue">
+		<classes>
+
+			<class name="RestAssured_Requests.AssignIssue" />
+		</classes>
+
+	</test> 
+	<!--  <test name="UpdateComments">
+		<classes>
+			<class name="RestAssured_Requests.Update_Comment" />
+		</classes>
+
+	</test>   -->
+	
+	<!--  <test name="Delete Issue">
+		<classes>
+
+			<class name="RestAssured_Requests.DeleteIssue" />
+		</classes>
+
+	</test> -->
+	
+	 <test name="Update Priority">
+		<classes>
+
+			<class name="RestAssured_Requests.UpdatePriority" />
+		</classes>
+	</test> 
+</suite> 
